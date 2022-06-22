@@ -1,0 +1,21 @@
+.navbar-container {
+    width: 100vw;
+    height: 20vh;
+    background-color: aquamarine;
+
+    .links-container {
+        display: flex;
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;      
+
+        .link {
+            text-decoration: none;
+            font-size: 1.8rem;
+            line-height: 1;
+            padding: 0 20px;
+        }
+    } 
+}
